@@ -88,16 +88,27 @@ WSGI_APPLICATION = 'studybud.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+# DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql',
+#        'NAME': 'daum0op4il24sq',
+#        'USER': 'oxusjutxskxzgq',
+#        'PASSWORD': 'f4aeccb772fa40eced908f88be1304ece64fd795580156d13233ebb631ab6160',
+#        'HOST': 'ec2-52-23-131-232.compute-1.amazonaws.com',
+#        'PORT': '5432',
+#    }
+# }
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql',
-       'NAME': 'daum0op4il24sq',
-       'USER': 'oxusjutxskxzgq',
-       'PASSWORD': 'f4aeccb772fa40eced908f88be1304ece64fd795580156d13233ebb631ab6160',
-       'HOST': 'ec2-52-23-131-232.compute-1.amazonaws.com',
-       'PORT': '5432',
+       'NAME': 'railway',
+       'USER': 'postgres',
+       'PASSWORD': 'o7aK4OsuSaYQS8mupIA6',
+       'HOST': 'containers-us-west-167.railway.app',
+       'PORT': '6856',
    }
 }
+
 
 
 # Password validation
